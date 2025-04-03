@@ -128,6 +128,7 @@ async function fetchTopSellers() {
   }
 }
 
+
 const PageHome = async () => {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -158,6 +159,7 @@ const PageHome = async () => {
     fetchFeaturedBrands(),
     fetchCategories(),
     fetchTopSellers(),
+  
   ]);
 
   // Extract successful values or set them to empty values if failed

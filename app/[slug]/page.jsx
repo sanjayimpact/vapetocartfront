@@ -2,7 +2,7 @@ import PageProductDetail from "../pages/page-product-detail/PageProductDetail";
 import PageCategoryDetail from "../pages/page-category-detail/PageCategoryDetail";
 import axios from "axios";
 import Script from "next/script";
-import { getallCategory } from "../utils/fetch-product";
+
 
 // CENTRALIZED DATA-FETCHING FUNCTION
 async function fetchData(slug) {
@@ -12,7 +12,7 @@ async function fetchData(slug) {
 
   try {
     const productResponse = await axios.get(
-      `https://productapi-g4k9.vercel.app/api/catpro/${slug}`
+      `http://localhost:3000/api/${slug}`
     );
 
     

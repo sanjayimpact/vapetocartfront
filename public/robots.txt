@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+
+# Host
+Host: https://www.vapetocart.co.uk/
+
+# Sitemaps
+Sitemap: https://www.vapetocart.co.uk/sitemap.xml
