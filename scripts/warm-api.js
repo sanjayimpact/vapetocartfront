@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const slugs = ['disposable-vape','nic-salts','vape-kits','e-liquids','pods','accessories','nicotine-pouches']; // Add more slugs as needed
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://productapi-g4k9.vercel.app';
 
 async function warmUp() {
   console.log('🟡 Starting API warm-up...');

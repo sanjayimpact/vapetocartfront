@@ -12,7 +12,7 @@ async function fetchData(slug) {
 
   try {
     const productResponse = await axios.get(
-      `http://localhost:3000/api/catpro/${slug}`
+      `https://productapi-g4k9.vercel.app/api/catpro/${slug}`
     );
 
     
